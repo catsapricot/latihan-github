@@ -18,6 +18,7 @@ Membuat Repository Baru
 
 Menambahkan File ke Staging Area
 1. ``` git add <nama-file> ``` = file ditambahkan ke staging area (tempat sementara sebelum file dicommit)
+2. ``` git add . ``` = menambahkan semua file ke staging area
 
 ---
 
