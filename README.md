@@ -42,8 +42,8 @@ Membuat Branch
 ---
 
 Log Commit
-1. ``` git log -<Berapa jumlah commit terakhir>``` = menampilkan informasi commit sebanyak yang diinginkan, dari yang terbaru
-2. ``` git log <nama-file>``` = menampilkan informasi commit file tertentu
+1. ``` git log -<Berapa jumlah commit terakhir> ``` = menampilkan informasi commit sebanyak yang diinginkan, dari yang terbaru
+2. ``` git log <nama-file> ``` = menampilkan informasi commit file tertentu
 3. ``` git log --since='Month Day Year' ``` = menampilkan informasi commit dari waktu yang diinginkan
 4. ``` git log --until='Month Day Year' ``` = menampilkan informasi commit sampai waktu yang diinginkan
 5. ``` git show <8-10 hash pertama> ``` = menampilkan detail dari commit (tags, trees, blobs)
@@ -51,9 +51,9 @@ Log Commit
 ---
 
 Membandingkan Version File
-1. ``` git diff <nama-file>``` = menampilkan perbedaan antara version file yang terakhir di-commit dan version modified (belum di-add)
-2. ``` git diff --staged <nama-file>``` = menampilkan perbedaan antara version file yang terakhir di-commit dan version staging area
-3. ``` git diff <8-10 hash pertama> <8-10 hash pertama>``` = menampilkan perbedaan antara 2 file yang sudah di-commit
+1. ``` git diff <nama-file> ``` = menampilkan perbedaan antara version file yang terakhir di-commit dan version modified (belum di-add)
+2. ``` git diff --staged <nama-file> ``` = menampilkan perbedaan antara version file yang terakhir di-commit dan version staging area
+3. ``` git diff <8-10 hash pertama> <8-10 hash pertama> ``` = menampilkan perbedaan antara 2 file yang sudah di-commit
 4. ``` git diff HEAD~1 HEAD ``` = menampilkan perbedaan antara 2 file terakhir yang sudah di-commit (HEAD = commit terakhir)
 
 ---
