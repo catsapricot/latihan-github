@@ -3,7 +3,7 @@
 Workflow Secara Sederhana
 1. Buka repository di IDE. Kalau download dari github, bisa dengan clone (``` git clone <url-repository> ```)
 2. Lakukan hal yang diinginkan (tambah/edit/hapus file)
-3. Masukkan file ke staging area (``` git add . ```), lalu commit (``` git commit -m "<Pesan perubahan>" ```). Kalau mau langsung bisa (``` git commit -am "<Pesan perubahan>" ```)
+3. Masukkan file ke staging area (``` git add . ```), lalu commit (``` git commit -m "<Pesan perubahan>" ```). Kalau mau langsung, bisa gunakan (``` git commit -am "<Pesan perubahan>" ```)
 4. Push ke repository (``` git push origin <nama-branch> ```)
 
 # Penjelasan
