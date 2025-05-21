@@ -46,10 +46,12 @@ Push ke Remote Repository
 
 ---
 
-Membuat Branch
+Branch GitHub
 1. ``` git -b <nama-branch> ``` = membuat branch baru
 2. ``` git checkout <nama-branch> ``` = pindah branch
 3. ``` git checkout -b <nama-branch> ``` = membuat branch baru, sekaligus pindah
+4. ``` git branch ``` = melihat list branch
+5. ``` git branch -a ``` = melihat list branch (termasuk di remote), perlu karena saat clone, hanya branch main yang terdownload, pakai checkout untuk download sekaligus pindah
 
 ---
 
