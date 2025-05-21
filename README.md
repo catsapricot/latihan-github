@@ -6,7 +6,11 @@ Workflow Secara Sederhana
 3. Masukkan file ke staging area (``` git add . ```), lalu commit (``` git commit -m "<Pesan perubahan>" ```). Kalau mau langsung, bisa gunakan (``` git commit -am "<Pesan perubahan>" ```)
 4. Push ke repository (``` git push origin <nama-branch> ```)
 
-# Penjelasan
+## Istilah Penting
+1. Remote = repository yang ada di server GitHub
+2. Origin = nama default remote repository
+
+## Penjelasan
 
 Berikut merupakan beberapa command penting untuk memahami workflow dasar github
 
@@ -46,6 +50,14 @@ Membuat Branch
 1. ``` git -b <nama-branch> ``` = membuat branch baru
 2. ``` git checkout <nama-branch> ``` = pindah branch
 3. ``` git checkout -b <nama-branch> ``` = membuat branch baru, sekaligus pindah
+
+---
+
+Update Clone Repository
+1. ``` git fetch origin ``` = mengambil (fetch) update terbaru dari remote repository
+2. ``` git fetch origin <nama-branch> ``` = sama, tapi lebih spesifik
+3. ``` git merge origin/<nama-branch> ``` = setelah fetch, baru di merge dia akan menggabungkannya ke branch lokal
+4. ``` git pull origin <nama-branch> ``` = gabungan fetch dan merge
 
 ---
 
