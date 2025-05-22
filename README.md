@@ -19,7 +19,8 @@ Berikut merupakan beberapa command penting untuk memahami workflow dasar github
 Useful Command
 1. ``` git status ``` = menampilkan status dari repository
 2. ``` git branch ``` = menampilkan daftar branch
-3. ``` git log ``` = menampilkan informasi commit yang telah dilakukan
+3. ``` git branch -a ``` = menampilkan daftar branch (termasuk di remote), perlu karena saat clone, hanya branch main yang terdownload, gunakan checkout untuk download sekaligus pindah
+4. ``` git log ``` = menampilkan informasi commit yang telah dilakukan
 
 ---
 
@@ -46,12 +47,11 @@ Push ke Remote Repository
 
 ---
 
-Branch GitHub
+Membuat dan Pindah Branch
 1. ``` git -b <nama-branch> ``` = membuat branch baru
 2. ``` git checkout <nama-branch> ``` = pindah branch
 3. ``` git checkout -b <nama-branch> ``` = membuat branch baru, sekaligus pindah
-4. ``` git branch ``` = melihat list branch
-5. ``` git branch -a ``` = melihat list branch (termasuk di remote), perlu karena saat clone, hanya branch main yang terdownload, pakai checkout untuk download sekaligus pindah
+
 
 ---
 
